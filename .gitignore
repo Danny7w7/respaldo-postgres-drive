@@ -1,0 +1,23 @@
+# Configuración real con datos del servidor (contraseña, rutas). Solo se versiona la plantilla.
+.env
+*.env
+!.env.example
+
+# Dumps y archivos temporales de respaldo
+dumps/
+*.dump
+*.dump.partial
+*.sql
+*.sql.gz
+
+# Logs
+*.log
+
+# Config de rclone (contiene el token de Google Drive)
+rclone.conf
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
